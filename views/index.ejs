@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    
+        
+</head>
+<body>
+    <form action="/" method="post">
+        Enter Video ID
+        <input type="text" name="videoID"><br>
+        <input type="submit"><br>
+    
+        <textarea name="detail" id="" cols="50" rows="10">
+        Title: <%=title%>
+        Channel: <%=channelTitle%>
+            </textarea>
+    </form>
+    <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/<%=vidID%>" title="YouTube video player" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+</body>
+</html>
